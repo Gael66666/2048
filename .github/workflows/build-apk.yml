@@ -30,10 +30,11 @@ jobs:
           ./gradlew assembleRelease
 
       - name: Upload APK to Artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: app-release
           path: android/app/build/outputs/apk/release/app-release.apk
+          retention-days: 5
 
       - name: Create Release and Upload APK
         if: success()
