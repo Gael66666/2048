@@ -1,4 +1,5 @@
 # 2048 — Jardin de cristaux
+ou aller dans Releases
 
 Application Windows native du jeu 2048, sur le thème d'un jardin de
 cristaux : les tuiles évoluent du vert pâle au doré puis à l'ember à mesure
